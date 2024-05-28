@@ -1,0 +1,33 @@
+/*Global/resetgeral*/
+@import "../global/resetgeral.css";
+
+/*Home*/
+@import "../home.css";
+
+/*footer/Menu*/
+@import "../menu footer.css";
+
+/*Tipografia / Cores*/
+@import "../utilidades/tipografia.css";
+@import "../utilidades/cores.css";
+
+/* Contato */
+@import "../contato.css";
+
+/* Sobre */
+@import "../sobre.css";
+
+/* Utilidades */
+@import "../utilidades/utilidades.css";
+@import "../utilidades/cookies.css";
+
+/* Orçamento */
+@import "../orcamento.css";
+
+/* Serviços */
+@import "../servicos.css";
+@import "../solar.css";
+@import "../climatizacao.css";
+
+/* Eletrica */
+@import "../eletrica.css";

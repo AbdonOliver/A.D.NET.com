@@ -1,0 +1,47 @@
+.botao {
+  padding: 15px;
+  border: none;
+  background: var(--cor-v12);
+  border-radius: 20px;
+  color: var(--cor-v0);
+  cursor: pointer;
+  text-align: center;
+}
+
+.botao:hover {
+  transform: scale(1.07);
+  transition: all 0.3s;
+}
+.btn-whatsapp {
+  position: fixed;
+  outline: none;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background: #34af23;
+  color: var(--cor-v0);
+  font-size: 2rem;
+  border: 1px solid var(--cor-v1);
+
+  animation-name: pulsar;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-out;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes pulsar {
+  0% {
+    height: 50px;
+    width: 50px;
+  }
+  100% {
+    height: 65px;
+    width: 65px;
+  }
+}
